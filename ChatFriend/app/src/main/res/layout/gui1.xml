@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgnhan1"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_in">
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lich96tb"
+            android:textColor="#ff044b"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtNoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTen"
+            android:layout_marginLeft="10dp"
+            android:text="noi dung"
+            android:textColor="#ffea00"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtThoiGian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNoiDung"
+            android:layout_marginLeft="20dp"
+            android:text="15-05-2015"
+            android:textSize="8sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</RelativeLayout>

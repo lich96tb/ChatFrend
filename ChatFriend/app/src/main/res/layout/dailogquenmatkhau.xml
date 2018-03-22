@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#b9d4cd"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChatFirend"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ae00ff"></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Xin vui lòng nhập Email" />
+
+        <EditText
+            android:id="@+id/dlEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <Button
+            android:id="@+id/dlXacNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xác nhận" />
+    </LinearLayout>
+</LinearLayout>

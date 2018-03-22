@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgtnDaiDien"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txttnTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ten"
+                android:textColor="#b7000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:id="@+id/imgtnOnline"
+                 />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/massege2"
+                android:id="@+id/imgtnthu"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/imgtnOnline"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txttnnoidung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nội dung"
+            android:textColor="#bd5c3a39"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>

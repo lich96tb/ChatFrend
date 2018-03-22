@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050252216411",
+    "firebase_url": "https://chatfriend-b436f.firebaseio.com",
+    "project_id": "chatfriend-b436f",
+    "storage_bucket": "chatfriend-b436f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050252216411:android:5d02dd1e68725e0c",
+        "android_client_info": {
+          "package_name": "com.example.lich96tb.chatfriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050252216411-gempci8mjoh368qalqbshnf0mcq5l2lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lich96tb.chatfriend",
+            "certificate_hash": "aa127e10698d77838ea2dbe58ecf1d7bbda32c72"
+          }
+        },
+        {
+          "client_id": "1050252216411-ajg97b68lmg06lguo6mitlkg2ve5nplg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD3UWmcMjUTfs0FVyDP_iZhVtldfPUVhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050252216411-ajg97b68lmg06lguo6mitlkg2ve5nplg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

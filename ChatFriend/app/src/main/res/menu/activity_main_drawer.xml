@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/nav_trangchu"
+           android:title="Trang chủ"
+           android:icon="@drawable/trangchu"></item>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Thay đổi thông tin" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cài đặt" />
+        <item
+            android:id="@+id/nav_pas"
+            android:icon="@drawable/khoa"
+            android:title="Đổi mật khẩu" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Giới thiệu" />
+
+    </group>
+
+
+</menu>

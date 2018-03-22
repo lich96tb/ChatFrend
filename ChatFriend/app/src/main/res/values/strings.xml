@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChatFriend</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="gioithieu">Ứng dụng được phát triển dành cho cộng đồng yêu mến và thích giao lưu giải trí mỗi ngày. \n Chúc các bạn luôn vui vẻ!</string>
+<string name="ketthuc"><i>Phát triển bởi:</i> \n"<b>" Đỗ Trọng Lịch. "</b>" </string>
+</resources>
