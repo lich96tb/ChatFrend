@@ -1,7 +1,6 @@
 package com.example.lich96tb.chatfriend;
 
 import android.app.Dialog;
-import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -36,7 +35,6 @@ import com.squareup.picasso.Picasso;
 
 import static com.example.lich96tb.chatfriend.AppKey.AppKey.PREFERENCES_NAME;
 import static com.example.lich96tb.chatfriend.R.drawable.a;
-import static com.example.lich96tb.chatfriend.R.drawable.f;
 import static com.example.lich96tb.chatfriend.R.id.imageView;
 import static com.example.lich96tb.chatfriend.R.menu.main;
 
@@ -128,13 +126,16 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
+
+
         // su dungj phims cungs
-        if (getFragmentManager().getBackStackEntryCount() > 0) {
-            getFragmentManager().popBackStack();
-        } else {
-            super.onBackPressed();
-        }
+//        if (getFragmentManager().getBackStackEntryCount() > 0) {
+//            getFragmentManager().popBackStack();
+//        } else {
+//            super.onBackPressed();
+//        }
         //dong mo keo
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -281,6 +282,5 @@ public class MainActivity extends AppCompatActivity
         mAuth.signOut();
         super.onDestroy();
     }
-
 
 }

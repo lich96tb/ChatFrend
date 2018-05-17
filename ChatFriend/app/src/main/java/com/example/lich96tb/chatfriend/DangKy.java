@@ -31,6 +31,7 @@ public class DangKy extends AppCompatActivity {
         setContentView(R.layout.activity_dang_ky);
         mAuth = FirebaseAuth.getInstance();
         anhxa();
+        getSupportActionBar().hide();
     }
 
     private void anhxa() {

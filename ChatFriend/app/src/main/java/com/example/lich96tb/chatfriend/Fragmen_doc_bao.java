@@ -1,6 +1,5 @@
 package com.example.lich96tb.chatfriend;
 
-import android.app.ActionBar;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -23,7 +22,6 @@ public class Fragmen_doc_bao extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fm_docbao2,container,false);
-
         viewWeb = (WebView)view.findViewById(ViewVeb);
         Bundle bundle=getArguments();
         String url=bundle.getString("link");
@@ -34,6 +32,7 @@ public class Fragmen_doc_bao extends Fragment {
         }
         //khong che chi su dụng phan mem ko cho dung trinh duytet khac
         viewWeb.setWebViewClient(new WebViewClient());
+
         return view;
     }
     private WebViewClient onWebViewClient=new WebViewClient(){
@@ -45,4 +44,5 @@ public class Fragmen_doc_bao extends Fragment {
 
         }
     };
+
 }
